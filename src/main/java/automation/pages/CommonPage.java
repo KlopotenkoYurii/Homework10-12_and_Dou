@@ -11,8 +11,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.List;
 
-//класс предок для всех страниц
-//в этом классе мы создаем общие методы которые будут полезные для работы с элементами на всех страницах
+
 public class CommonPage {
     protected WebDriver driver;
 
