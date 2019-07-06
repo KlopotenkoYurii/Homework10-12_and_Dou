@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="One Test">
+    <test name="loginTest">
+        <classes>
+            <class name="com.skillup.automation.login.NegativeLoginTest">
+                <methods>
+                    <include name="wrongEmailTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

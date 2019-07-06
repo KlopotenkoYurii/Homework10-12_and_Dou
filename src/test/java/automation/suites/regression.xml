@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="UI Tests">
+    <test name="regression">
+        <packages>
+            <package name="com.skillup.automation.login"/>
+            <package name="com.skillup.automation.signup"/>
+        </packages>
+    </test>
+</suite>

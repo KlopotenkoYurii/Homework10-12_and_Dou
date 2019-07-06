@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="UI Tests">
+    <test name="loginTests">
+        <packages>
+            <package name="com.skillup.automation.login"/>
+        </packages>
+    </test>
+</suite>
