@@ -1,5 +1,6 @@
 package automation.pages;
 
+import automation.configuration.Wait;
 import com.skillup.automation.configuration.Wait;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -7,6 +8,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
+import static automation.configuration.Urls.LOGIN_URL;
 import static com.skillup.automation.configuration.Urls.LOGIN_URL;
 import static org.openqa.selenium.support.ui.ExpectedConditions.presenceOfElementLocated;
 

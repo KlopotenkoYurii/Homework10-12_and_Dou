@@ -1,10 +1,12 @@
 package automation.pages;
 
+import automation.utils.ElementHelper;
 import com.skillup.automation.utils.ElementHelper;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
+import static automation.configuration.Urls.SIGN_UP_URL;
 import static com.skillup.automation.configuration.Urls.SIGN_UP_URL;
 
 public class SignUpPage {

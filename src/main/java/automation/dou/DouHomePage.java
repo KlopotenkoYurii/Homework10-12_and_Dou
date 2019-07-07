@@ -1,5 +1,7 @@
 package automation.dou;
 
+import automation.configuration.Urls;
+import automation.pages.CommonPage;
 import com.skillup.automation.configuration.Urls;
 import com.skillup.automation.pages.CommonPage;
 import org.openqa.selenium.WebDriver;
